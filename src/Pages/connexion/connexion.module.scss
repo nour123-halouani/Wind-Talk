@@ -1,0 +1,68 @@
+@import "../../conception/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
+
+.coverImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image {
+  max-width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formLabel {
+  letter-spacing: 0.2rem;
+  font-size: 12px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Ranchers";
+  //color: #FAB10C;
+  color: $blue;
+  font-style: italic;
+  font-size: 45px;
+}
+
+.signColor {
+  color: $yellow;
+}
+
+.forgotPassword {
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+  font-style: italic;
+}
+
+.firstButton {
+  background-color: $yellow !important;
+  border-color: $yellow !important;
+  margin-bottom: 5px;
+  //   letter-spacing: 0.2rem;
+  font-style: italic;
+}
+
+.secondButton {
+  background-color: $blue !important;
+  border-color: $blue !important;
+  //   letter-spacing: 0.2rem;
+  font-style: italic;
+}
+
+.toSignUp {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.link {
+  text-decoration: none;
+  color: $blue;
+}
